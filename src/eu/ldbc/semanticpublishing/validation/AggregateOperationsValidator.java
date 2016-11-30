@@ -63,7 +63,8 @@ public class AggregateOperationsValidator extends Validator {
 		System.out.println("\tvalidating AGGREGATE operations...");
 		
 		//load validation dataset into the database
-		loadValidationData();
+		// TODO: make it conditional on a flag
+		//loadValidationData();
 		
 		//refresh statistics
 		String validationPath = configuration.getString(Configuration.VALIDATION_PATH);
