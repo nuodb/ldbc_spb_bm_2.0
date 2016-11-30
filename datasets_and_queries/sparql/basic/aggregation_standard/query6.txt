@@ -45,9 +45,9 @@ PREFIX ldbc:<http://www.ldbc.eu/ontologies/sempub#>
 
 SELECT DISTINCT ?creativeWork ?locationName ?lat ?long ?dateModified 
 {
-    ?cwork a cwork:CreativeWork . 
-    ?cwork cwork:tag ?geonamesId . 
-    ?cwork cwork:dateModified ?dateModified .
+    { ?creativeWork a cwork:BlogPost . } union { ?creativeWork a cwork:NewsItem . } union { ?creativeWork a cwork:Programme . }
+    ?creativeWork cwork:tag|cwork:about|cwork:mentions ?geonamesId . 
+    ?creativeWork cwork:dateModified ?dateModified .
     ?geonamesId geo:lat ?lat . 
     ?geonamesId geo:long ?long . 
     ?geonamesId a geo-ont:Feature . 

@@ -41,7 +41,7 @@ CONSTRUCT { ?creativeWork ?pred ?value }
 WHERE {
   {
     SELECT DISTINCT ?creativeWork {
-      ?creativeWork cwork:tag {{{cwAboutUri}}} ;
+      ?creativeWork cwork:tag|cwork:about|cwork:mentions {{{cwAboutUri}}} ;
         cwork:dateCreated ?created ;
         cwork:primaryFormat {{{cwFormat}}} ;    
         a {{{cwType}}}.

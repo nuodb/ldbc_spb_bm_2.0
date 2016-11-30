@@ -70,18 +70,19 @@ WHERE {
   {
     SELECT DISTINCT ?creativeWork
       WHERE {
+	      { ?creativeWork a cwork:BlogPost .  } UNION { ?creativeWork a cwork:NewsItem .  } UNION { ?creativeWork a cwork:Programme .  }
               ?creativeWork {{{cwAboutOrMentions}}} {{{cwAboutOrMentionsUri}}} .
-              ?creativeWork a cwork:CreativeWork ;
+              ?creativeWork a ?type;
               cwork:dateModified ?modified .
       }
       ORDER BY DESC(?modified)
       LIMIT 10
   }
   {
-      ?creativeWork a cwork:CreativeWork ;
-                    a ?type ;
+              ?creativeWork a ?type ;
                     cwork:title ?title ;
                     cwork:dateModified ?modified .
+	      FILTER (?type IN (cwork:BlogPost, cwork:NewsItem, cwork:Programme)) .
       ?creativeWork cwork:about [ ldbcspb:prefLabel ?aboutPrefLabel ] . 
       OPTIONAL { ?creativeWork cwork:shortTitle ?shortTitle . }
       OPTIONAL { ?creativeWork cwork:description ?description . }

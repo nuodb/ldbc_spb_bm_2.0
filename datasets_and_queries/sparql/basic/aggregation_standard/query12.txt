@@ -42,8 +42,8 @@ WHERE {
   {
     SELECT DISTINCT ?creativeWork ?cworkGraph
     WHERE {
-        ?creativeWork cwork:tag {{{creativeWorkTag}}} ;
-                      a cwork:CreativeWork .
+        ?creativeWork cwork:tag|cwork:about|cwork:mentions {{{creativeWorkTag}}} .
+	{ ?creativeWork a cwork:BlogPost .  } UNION { ?creativeWork a cwork:NewsItem .  } UNION { ?creativeWork a cwork:Programme .  }
         GRAPH ?cworkGraph { ?creativeWork cwork:dateModified ?modified . }
       }
       ORDER BY DESC(?modified)

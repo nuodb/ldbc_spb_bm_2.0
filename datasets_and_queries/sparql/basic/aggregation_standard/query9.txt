@@ -147,8 +147,8 @@ WHERE {
   { 
     SELECT DISTINCT ?other_creativeWork ?dt
     WHERE {
-      {{{cwUri}}} cwork:tag ?tag .
-      ?other_creativeWork cwork:tag ?tag .
+      {{{cwUri}}} cwork:tag|cwork:about|cwork:mentions ?tag .
+      ?other_creativeWork cwork:tag|cwork:about|cwork:mentions ?tag .
       ?other_creativeWork cwork:dateModified ?dt .
     }
     ORDER BY DESC(?dt)

@@ -48,7 +48,7 @@ PREFIX ldbcspb:<http://www.ldbcouncil.org/spb#>
 SELECT DISTINCT ((MAX(?topicPrefLabel)) AS ?topicLabel) ((COUNT(*)) AS ?cnt)
 WHERE {
   ?creativeWork a {{{cwType}}} ;
-     cwork:tag ?topic ;
+     cwork:tag|cwork:about|cwork:mentions ?topic ;
      cwork:dateModified ?dt ;
      cwork:audience {{{cwAudience}}} .
    FILTER (?dt > {{{cwStartDateTime}}} && ?dt < {{{cwEndDateTime}}}) .

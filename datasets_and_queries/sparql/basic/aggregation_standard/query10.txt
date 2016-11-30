@@ -38,14 +38,16 @@ PREFIX fb:<http://rdf.freebase.com/ns/>
 SELECT ?creativeWork ?title ?dateModified 
 {    
   {
-    {{{geonamesFeatureURI}}} geo-ont:parentFeature ?province .
-    ?province geo-ont:featureCode geo-ont:A.ADM1 .    
-    ?location geo-ont:parentFeature ?province .
+    {{{geonamesFeatureURI}}} owl:sameAs ?sas . 
+    ?sas geo-ont:parentFeature|geo-ont:parentADM1|geo-ont:parentADM2|geo-ont:parentADM3|geo-ont:parentADM4|geo-ont:parentCountry ?province .
+    #?province geo-ont:featureCode geo-ont:A.ADM1 .    
+    ?location geo-ont:parentFeature|geo-ont:parentADM1|geo-ont:parentADM2|geo-ont:parentADM3|geo-ont:parentADM4|geo-ont:parentCountry ?province .
   } UNION {
-    {{{geonamesFeatureURI}}} geo-ont:parentFeature ?location .
-    ?location geo-ont:featureCode geo-ont:A.ADM1 .    
+    {{{geonamesFeatureURI}}} owl:sameAs ?sas . 
+    ?sas geo-ont:parentFeature|geo-ont:parentADM1|geo-ont:parentADM2|geo-ont:parentADM3|geo-ont:parentADM4|geo-ont:parentCountry ?location .
+    #?location geo-ont:featureCode geo-ont:A.ADM1 .    
   }
-  ?creativeWork cwork:tag ?location ;
+  ?creativeWork cwork:tag|cwork:about|cwork:mentions ?location ;
       cwork:title ?title ;
       cwork:dateModified ?dateModified .
       {{{dateTimeRangeFilter}}}

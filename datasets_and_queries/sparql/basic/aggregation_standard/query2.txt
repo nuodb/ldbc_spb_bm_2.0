@@ -62,8 +62,8 @@ CONSTRUCT {
   ?pco bbc:webDocumentType ?webDocType .
 }
 WHERE {
-  ?creativeWork a cwork:CreativeWork ;
-    a ?type ;
+  { ?creativeWork a cwork:BlogPost .  } UNION { ?creativeWork a cwork:NewsItem .  } UNION { ?creativeWork a cwork:Programme .  }
+  ?creativeWork  a ?type ;
     cwork:title ?title .
   ?type rdfs:subClassOf cwork:CreativeWork .
   OPTIONAL { ?creativeWork cwork:dateCreated ?dateCreated . }

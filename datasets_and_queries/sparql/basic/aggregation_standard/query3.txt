@@ -49,7 +49,7 @@ WHERE {
     SELECT DISTINCT ?creativeWork
     {
       ?creativeWork cwork:dateCreated ?created .
-      ?creativeWork cwork:tag {{{cwAboutUri}}} .
+      ?creativeWork cwork:tag|cwork:about|cwork:mentions {{{cwAboutUri}}} .
       
       {
         { ?creativeWork cwork:primaryFormat cwork:TextualFormat . }
