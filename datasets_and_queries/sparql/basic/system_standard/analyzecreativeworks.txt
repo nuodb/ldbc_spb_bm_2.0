@@ -35,7 +35,8 @@ PREFIX cwork:<http://www.bbc.co.uk/ontologies/creativework/>
 #  Query Description : Retrieves the greatest ID of Creative Work stored. Next Creative Works will have new IDs greater than existing.
 
 SELECT ?maxCwID { 
-  ?cwUri a cwork:CreativeWork . 
+  #?cwUri a cwork:CreativeWork . 
+  ?cwUri a ?cwork . FILTER (?cwork IN (cwork:BlogPost, cwork:NewsItem, cwork:Programme)) 
   BIND(str(?cwUri) AS ?strCwUri) . 
   BIND(replace(?strCwUri, "http://www.bbc.co.uk/things/", "", "i") AS ?cwTmp) . 
   BIND(replace(?cwTmp, "#id", "", "i") AS ?cwTmp2) . 
