@@ -40,7 +40,7 @@ public class AggregateOperationsValidator extends Validator {
 	private SPARQLResultStatementsCounter sparqlResultStatementsCounter;
 	
 	private final static String APPLICATION_SPARQL_RESULT_XML = "application/sparql-results+xml";
-	private final static String APPLICATION_X_TURTLE = "application/x-turtle";
+	private final static String APPLICATION_X_TURTLE = "text/turtle";
 	
 	private final static Logger LOGGER = LoggerFactory.getLogger(EditorialAgent.class.getName());
 	private final static Logger BRIEF_LOGGER = LoggerFactory.getLogger(TestDriver.class.getName());	
