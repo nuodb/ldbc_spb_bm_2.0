@@ -52,7 +52,8 @@ WHERE {
      cwork:dateModified ?dt ;
      cwork:audience {{{cwAudience}}} .
    FILTER (?dt > {{{cwStartDateTime}}} && ?dt < {{{cwEndDateTime}}}) .
-   ?topic ldbcspb:prefLabel ?topicPrefLabel .
+   #?topic ldbcspb:prefLabel ?topicPrefLabel .
+   { { ?topic ldbcspb:prefLabel ?topicPrefLabel . } union { ?sas owl:sameAs ?topic . ?sas ldbcspb:prefLabel ?topicPrefLabel . } }
 }
 GROUP BY ?topic
 ORDER BY DESC(?cnt)
