@@ -8,219 +8,219 @@
 application/sparql-results+xml
 
 [Results]
-<?xml version='1.0' encoding='UTF-8'?>
-<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
-	<head>
-		<variable name='creativeWork'/>
-		<variable name='title'/>
-		<variable name='description'/>
-		<variable name='dateModified'/>
-		<variable name='primaryContent'/>
-	</head>
-	<results>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2012-07-28T13:08:46.822+03:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Regional Bell Operating Company bummed yawls inhalation ovaries reanimating sublimely imaged puffiness westbound fornicates.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/175958#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/440208#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> disappearing disagrees pegs substations permed waffling scraps jalopy kicking amidships dabbler.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2012-05-21T06:29:20.017+03:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Investor AB wigeons smocks biplane benchmarks maze mayflies lampooned sparest lidded daydreamt.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/159288#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/394144#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> woolliest decedents noontime swirl censoring hidden mostly exonerate stilted kingly pancake.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2012-05-21T06:29:20.017+03:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Investor AB wigeons smocks biplane benchmarks maze mayflies lampooned sparest lidded daydreamt.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/159288#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/394145#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> woolliest decedents noontime swirl censoring hidden mostly exonerate stilted kingly pancake.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2012-02-06T12:37:59.927+02:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Warburg Pincus crack crumpling addressees patenting underrated plushier preponderant tireless forefronts squiggles.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/188835#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/472342#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> atwitter redevelop suggestions pertness derailing manhandle monarchical dying bridge tinctures charts dislikes livid.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2012-02-06T12:37:59.927+02:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Warburg Pincus crack crumpling addressees patenting underrated plushier preponderant tireless forefronts squiggles.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/188835#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/472343#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> atwitter redevelop suggestions pertness derailing manhandle monarchical dying bridge tinctures charts dislikes livid.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2012-02-06T12:37:59.927+02:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Warburg Pincus crack crumpling addressees patenting underrated plushier preponderant tireless forefronts squiggles.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/188835#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/472344#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> atwitter redevelop suggestions pertness derailing manhandle monarchical dying bridge tinctures charts dislikes livid.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2012-02-06T12:37:59.927+02:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Warburg Pincus crack crumpling addressees patenting underrated plushier preponderant tireless forefronts squiggles.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/188835#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/472345#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> atwitter redevelop suggestions pertness derailing manhandle monarchical dying bridge tinctures charts dislikes livid.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-10-16T00:38:37.214+03:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Regional Bell Operating Company tenderfeet plumper riffs advance autopsy devoutness skylark inbreeding freckle flowery.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/186480#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/466449#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> fastidious saith doused overhung hillocks hello undergoing roomed whooshes predeceasing deploring incompetently infinitives.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-05-31T09:43:21.890+03:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Applied Communication Sciences postcard diversifying pecans justification illumines molest barracuda leaning ranker interacts.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/153670#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/356194#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> anoint screws democrat's ruptured enchantresses teabag profiteered drollery catching ogle zoologists.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-05-31T09:43:21.890+03:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Applied Communication Sciences postcard diversifying pecans justification illumines molest barracuda leaning ranker interacts.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/153670#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/356195#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> anoint screws democrat's ruptured enchantresses teabag profiteered drollery catching ogle zoologists.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-05-31T09:43:21.890+03:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Applied Communication Sciences postcard diversifying pecans justification illumines molest barracuda leaning ranker interacts.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/153670#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/356196#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> anoint screws democrat's ruptured enchantresses teabag profiteered drollery catching ogle zoologists.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-05-31T09:43:21.890+03:00</literal>
-			</binding>
-			<binding name='title'>
-				<literal>Applied Communication Sciences postcard diversifying pecans justification illumines molest barracuda leaning ranker interacts.</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/153670#id</uri>
-			</binding>
-			<binding name='primaryContent'>
-				<uri>http://www.bbc.co.uk/document/356197#id</uri>
-			</binding>
-			<binding name='description'>
-				<literal> anoint screws democrat's ruptured enchantresses teabag profiteered drollery catching ogle zoologists.</literal>
-			</binding>
-		</result>
-	</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+	  <head>
+		    <variable name="creativeWork"/>
+		    <variable name="title"/>
+		    <variable name="description"/>
+		    <variable name="dateModified"/>
+		    <variable name="primaryContent"/>
+	  </head>
+	  <results>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-07-28T10:08:46.822Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Regional Bell Operating Company bummed yawls inhalation ovaries reanimating sublimely imaged puffiness westbound fornicates.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/175958#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/440208#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> disappearing disagrees pegs substations permed waffling scraps jalopy kicking amidships dabbler.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-21T03:29:20.017Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Investor AB wigeons smocks biplane benchmarks maze mayflies lampooned sparest lidded daydreamt.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/159288#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/394144#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> woolliest decedents noontime swirl censoring hidden mostly exonerate stilted kingly pancake.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-05-21T03:29:20.017Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Investor AB wigeons smocks biplane benchmarks maze mayflies lampooned sparest lidded daydreamt.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/159288#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/394145#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> woolliest decedents noontime swirl censoring hidden mostly exonerate stilted kingly pancake.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-06T10:37:59.927Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Warburg Pincus crack crumpling addressees patenting underrated plushier preponderant tireless forefronts squiggles.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/188835#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/472342#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> atwitter redevelop suggestions pertness derailing manhandle monarchical dying bridge tinctures charts dislikes livid.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-06T10:37:59.927Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Warburg Pincus crack crumpling addressees patenting underrated plushier preponderant tireless forefronts squiggles.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/188835#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/472343#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> atwitter redevelop suggestions pertness derailing manhandle monarchical dying bridge tinctures charts dislikes livid.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-06T10:37:59.927Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Warburg Pincus crack crumpling addressees patenting underrated plushier preponderant tireless forefronts squiggles.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/188835#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/472344#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> atwitter redevelop suggestions pertness derailing manhandle monarchical dying bridge tinctures charts dislikes livid.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-02-06T10:37:59.927Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Warburg Pincus crack crumpling addressees patenting underrated plushier preponderant tireless forefronts squiggles.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/188835#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/472345#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> atwitter redevelop suggestions pertness derailing manhandle monarchical dying bridge tinctures charts dislikes livid.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-10-15T21:38:37.214Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Regional Bell Operating Company tenderfeet plumper riffs advance autopsy devoutness skylark inbreeding freckle flowery.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/186480#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/466449#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> fastidious saith doused overhung hillocks hello undergoing roomed whooshes predeceasing deploring incompetently infinitives.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-31T06:43:21.890Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Applied Communication Sciences postcard diversifying pecans justification illumines molest barracuda leaning ranker interacts.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/153670#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/356194#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> anoint screws democrat's ruptured enchantresses teabag profiteered drollery catching ogle zoologists.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-31T06:43:21.890Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Applied Communication Sciences postcard diversifying pecans justification illumines molest barracuda leaning ranker interacts.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/153670#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/356195#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> anoint screws democrat's ruptured enchantresses teabag profiteered drollery catching ogle zoologists.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-31T06:43:21.890Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Applied Communication Sciences postcard diversifying pecans justification illumines molest barracuda leaning ranker interacts.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/153670#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/356196#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> anoint screws democrat's ruptured enchantresses teabag profiteered drollery catching ogle zoologists.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-05-31T06:43:21.890Z</literal>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Applied Communication Sciences postcard diversifying pecans justification illumines molest barracuda leaning ranker interacts.</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/153670#id</uri>
+			      </binding>
+			      <binding name="primaryContent">
+				        <uri>http://www.bbc.co.uk/document/356197#id</uri>
+			      </binding>
+			      <binding name="description">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string"> anoint screws democrat's ruptured enchantresses teabag profiteered drollery catching ogle zoologists.</literal>
+			      </binding>
+		    </result>
+	  </results>
 </sparql>

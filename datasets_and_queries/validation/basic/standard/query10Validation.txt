@@ -8,35 +8,35 @@
 application/sparql-results+xml
 
 [Results]
-<?xml version='1.0' encoding='UTF-8'?>
-<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
-	<head>
-		<variable name='creativeWork'/>
-		<variable name='title'/>
-		<variable name='dateModified'/>
-	</head>
-	<results>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-07-21T18:34:31.729+03:00</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/162917#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Mabel Paige adjectival verification jaunted multiplicand gorged readies haves heighten panties slavish.</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateModified'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-07-21T18:48:36.950+03:00</literal>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/126388#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Simon Dallow ecstatically sieved hydraulics discredits together swami piggybacking invitations negotiable extrication.</literal>
-			</binding>
-		</result>
-	</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+	  <head>
+		    <variable name="creativeWork"/>
+		    <variable name="title"/>
+		    <variable name="dateModified"/>
+	  </head>
+	  <results>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-07-21T15:34:31.729Z</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/162917#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Mabel Paige adjectival verification jaunted multiplicand gorged readies haves heighten panties slavish.</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateModified">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-07-21T15:48:36.950Z</literal>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/126388#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Simon Dallow ecstatically sieved hydraulics discredits together swami piggybacking invitations negotiable extrication.</literal>
+			      </binding>
+		    </result>
+	  </results>
 </sparql>

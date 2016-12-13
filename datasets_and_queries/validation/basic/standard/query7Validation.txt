@@ -8,256 +8,256 @@ cwork:NewsItem;FILTER(?dateCreated >= "2011-02-08T21:01:00.000Z"^^<http://www.w3
 application/sparql-results+xml
 
 [Results]
-<?xml version='1.0' encoding='UTF-8'?>
-<sparql xmlns='http://www.w3.org/2005/sparql-results#'>
-	<head>
-		<variable name='creativeWork'/>
-		<variable name='dateCreated'/>
-		<variable name='title'/>
-		<variable name='category'/>
-		<variable name='liveCoverage'/>
-		<variable name='audience'/>
-	</head>
-	<results>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:11:34.213+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Persons</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/103037#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Theodore Samuel Williams chiefs magenta managing confab dauntlessness unwed dormice debuting pinkest worsens.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:20:16.801+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Persons</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/103074#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Warner Jorgenson poulticing chambers ultrasonically sufficed unequivocally cupcake toothache tutu resilient attributes.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:22:25.017+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Persons</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/103077#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Julia Guillamon dithers mulches stateside drawer investigating correctest paintbrush captious boatswain hell.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:26:41.908+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Persons</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/103142#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Eddie Perkins tansy intensification customising deckhand nettlesome treasurer turboprop righteousness snorkelled gloating.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:28:35.066+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Persons</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/170237#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Francesc Alio decorous catches darted wooed flanneled diffraction circumcise circumspect pile solicitude.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:30:59.622+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Company</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/102929#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Boeing Commercial Airplanes tweaked brevity decontaminated trillions starts irritations unveils versification decent jackrabbit.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:37:53.427+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Company</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/102840#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>OpusPoint Partners desensitised crawling headquarters helix confessedly milks bearing housecoats fantasies vulnerable.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:48:38.920+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Persons</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/103118#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Peter Freuchen blackjacked proponent betrayers restrooms debarking formation moles tightest dairymaids pinfeather.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:50:47.536+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Persons</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/62296#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Sonia Faleiro allocate clotted castoffs brakemen stinted angry minicomputers broadside skewing forsooth.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:52:53.902+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Persons</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/102980#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Felix Adler woodcarvings combatants duped bobolink expertise pastry foams shaker antedates colorless.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:54:00.102+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Persons</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/102874#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Eric Brown funicular agglomerate goofed frizzier question subversive disfavours gleamed eminences virtues.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-		<result>
-			<binding name='dateCreated'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#dateTime'>2011-02-08T23:57:47.751+02:00</literal>
-			</binding>
-			<binding name='category'>
-				<uri>http://www.bbc.co.uk/category/Persons</uri>
-			</binding>
-			<binding name='creativeWork'>
-				<uri>http://www.bbc.co.uk/things/102988#id</uri>
-			</binding>
-			<binding name='title'>
-				<literal>Hans Zikeli jumbo pat footballer javelin mainstreamed downwind nozzle concern breeding stashing.</literal>
-			</binding>
-			<binding name='audience'>
-				<uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
-			</binding>
-			<binding name='liveCoverage'>
-				<literal datatype='http://www.w3.org/2001/XMLSchema#boolean'>false</literal>
-			</binding>
-		</result>
-	</results>
+<?xml version="1.0" encoding="UTF-8"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+	  <head>
+		    <variable name="creativeWork"/>
+		    <variable name="dateCreated"/>
+		    <variable name="title"/>
+		    <variable name="category"/>
+		    <variable name="liveCoverage"/>
+		    <variable name="audience"/>
+	  </head>
+	  <results>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:11:34.213Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Persons</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/103037#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Theodore Samuel Williams chiefs magenta managing confab dauntlessness unwed dormice debuting pinkest worsens.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:20:16.801Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Persons</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/103074#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Warner Jorgenson poulticing chambers ultrasonically sufficed unequivocally cupcake toothache tutu resilient attributes.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:22:25.017Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Persons</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/103077#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Julia Guillamon dithers mulches stateside drawer investigating correctest paintbrush captious boatswain hell.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:26:41.908Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Persons</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/103142#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Eddie Perkins tansy intensification customising deckhand nettlesome treasurer turboprop righteousness snorkelled gloating.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:28:35.066Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Persons</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/170237#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Francesc Alio decorous catches darted wooed flanneled diffraction circumcise circumspect pile solicitude.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:30:59.622Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Company</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/102929#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Boeing Commercial Airplanes tweaked brevity decontaminated trillions starts irritations unveils versification decent jackrabbit.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:37:53.427Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Company</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/102840#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">OpusPoint Partners desensitised crawling headquarters helix confessedly milks bearing housecoats fantasies vulnerable.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:48:38.920Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Persons</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/103118#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Peter Freuchen blackjacked proponent betrayers restrooms debarking formation moles tightest dairymaids pinfeather.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:50:47.536Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Persons</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/62296#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Sonia Faleiro allocate clotted castoffs brakemen stinted angry minicomputers broadside skewing forsooth.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:52:53.902Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Persons</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/102980#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Felix Adler woodcarvings combatants duped bobolink expertise pastry foams shaker antedates colorless.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:54:00.102Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Persons</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/102874#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Eric Brown funicular agglomerate goofed frizzier question subversive disfavours gleamed eminences virtues.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+		    <result>
+			      <binding name="dateCreated">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-02-08T21:57:47.751Z</literal>
+			      </binding>
+			      <binding name="category">
+				        <uri>http://www.bbc.co.uk/category/Persons</uri>
+			      </binding>
+			      <binding name="creativeWork">
+				        <uri>http://www.bbc.co.uk/things/102988#id</uri>
+			      </binding>
+			      <binding name="title">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#string">Hans Zikeli jumbo pat footballer javelin mainstreamed downwind nozzle concern breeding stashing.</literal>
+			      </binding>
+			      <binding name="audience">
+				        <uri>http://www.bbc.co.uk/ontologies/creativework/NationalAudience</uri>
+			      </binding>
+			      <binding name="liveCoverage">
+				        <literal datatype="http://www.w3.org/2001/XMLSchema#boolean">false</literal>
+			      </binding>
+		    </result>
+	  </results>
 </sparql>
