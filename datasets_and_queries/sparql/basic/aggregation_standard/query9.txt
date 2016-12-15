@@ -57,101 +57,41 @@ PREFIX fb:<http://rdf.freebase.com/ns/>
 SELECT ?other_creativeWork ?dt ((?cnt_2 * 2 + ?cnt_1_5 * 15e-1 + ?cnt_1 + ?cnt_0_5 * 5e-1) AS ?score) 
 WHERE {
   {
-    SELECT (?cnt2_sameAs + ?cnt2_noSameAs AS ?cnt_2) {
-      {
-        SELECT (count(*) as ?cnt2_sameAs) {
-        {
-          SELECT DISTINCT ?other_cw (min(?ent_eq) as ?ent_c) {
-            {{{cwUri}}} cwork:about ?ent .
-            ?ent owl:sameAs ?ent_eq .
-            ?other_cw cwork:about ?ent_eq .
-          } group by ?ent ?other_cw }
-        }
-      }
-      {
-        SELECT (count(*) as ?cnt2_noSameAs) {
-          {{{cwUri}}} cwork:about ?ent2 .
-          OPTIONAL {?ent2 owl:sameAs ?ent2_eq . }
-            FILTER ( ! BOUND(?ent2_eq) )
-          ?other_cw cwork:about ?ent2 .
-        }
-      }
-    } 
+    SELECT (COUNT(*) AS ?cnt_2) 
+    WHERE { 
+      {{{cwUri}}} cwork:about ?oa .
+      ?other_cw cwork:about ?oa . 
+    }      
   } .
   {
-    SELECT (?cnt1_5_sameAs + ?cnt1_5_noSameAs AS ?cnt_1_5) {
-      {
-        SELECT (count(*) as ?cnt1_5_sameAs) {
-        {
-          SELECT DISTINCT ?other_cw (min(?ent_eq) as ?ent_c) {
-            {{{cwUri}}} cwork:about ?ent .
-            ?ent owl:sameAs ?ent_eq .
-            ?other_cw cwork:mentions ?ent_eq .
-          } group by ?ent ?other_cw }
-        }
-      }
-      {
-        SELECT (count(*) as ?cnt1_5_noSameAs) {
-          {{{cwUri}}} cwork:about ?ent2 .
-          OPTIONAL {?ent2 owl:sameAs ?ent2_eq . }
-            FILTER ( ! BOUND(?ent2_eq) )
-          ?other_cw cwork:mentions ?ent2 .
-        }
-      }
-    } 
+     SELECT (COUNT(*) AS ?cnt_1_5) 
+     WHERE {
+       {{{cwUri}}} cwork:mentions ?oa .
+       ?other_cw cwork:about ?oa . 
+     }      
   } .  
   {
-    SELECT (?cnt1_sameAs + ?cnt1_noSameAs AS ?cnt_1) {
-      {
-        SELECT (count(*) as ?cnt1_sameAs) {
-        {
-          SELECT DISTINCT ?other_cw (min(?ent_eq) as ?ent_c) {
-            {{{cwUri}}} cwork:mentions ?ent .
-            ?ent owl:sameAs ?ent_eq .
-            ?other_cw cwork:about ?ent_eq .
-          } group by ?ent ?other_cw }
-        }
-      }
-      {
-        SELECT (count(*) as ?cnt1_noSameAs) {
-          {{{cwUri}}} cwork:mentions ?ent2 .
-          OPTIONAL {?ent2 owl:sameAs ?ent2_eq . }
-            FILTER ( ! BOUND(?ent2_eq) )
-          ?other_cw cwork:about ?ent2 .
-        }
-      }
-    } 
+     SELECT (COUNT(*) AS ?cnt_1) 
+     WHERE {
+       {{{cwUri}}} cwork:about ?oa .
+       ?other_cw cwork:mentions ?oa . 
+     }      
   } .
   {
-    SELECT (?cnt_0_5_sameAs + ?cnt_0_5_noSameAs AS ?cnt_0_5) {
-      {
-        SELECT (count(*) as ?cnt_0_5_sameAs) {
-        {
-          SELECT DISTINCT ?other_cw (min(?ent_eq) as ?ent_c) {
-            {{{cwUri}}} cwork:mentions ?ent .
-            ?ent owl:sameAs ?ent_eq .
-            ?other_cw cwork:mentions ?ent_eq .
-          } group by ?ent ?other_cw }
-        }
-      }
-      {
-        SELECT (count(*) as ?cnt_0_5_noSameAs) {
-          {{{cwUri}}} cwork:mentions ?ent2 .
-          OPTIONAL {?ent2 owl:sameAs ?ent2_eq . }
-            FILTER ( ! BOUND(?ent2_eq) )
-          ?other_cw cwork:mentions ?ent2 .
-        }
-      }
-    } 
+     SELECT (COUNT(*) AS ?cnt_0_5)
+     WHERE { 
+       {{{cwUri}}} cwork:mentions ?om .
+       ?other_cw cwork:mentions ?om . 
+     }      
   } .
   { 
     SELECT DISTINCT ?other_creativeWork ?dt
     WHERE {
-      {{{cwUri}}} cwork:tag|cwork:about|cwork:mentions ?tag .
-      ?other_creativeWork cwork:tag|cwork:about|cwork:mentions ?tag .
+      {{{cwUri}}} cwork:about|cwork:mentions ?tag .
+      ?other_creativeWork cwork:about|cwork:mentions ?tag .
       ?other_creativeWork cwork:dateModified ?dt .
     }
     ORDER BY DESC(?dt)
-    LIMIT 10        
+    LIMIT 10    
   }
 }
